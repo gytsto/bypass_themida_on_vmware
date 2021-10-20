@@ -1,5 +1,7 @@
 # Bypass themida on vmware
 
+- Do not install **VMware tools** when creating virtual machine or remove **VMware tools** from virtual machine if already installed
+
 - Edit virtual machine's **.vmx** file with the following lines:
 ```
 svga.vramSize = 268435456
