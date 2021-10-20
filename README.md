@@ -12,4 +12,6 @@ SMBIOS.reflectHost = "TRUE"
 ```
 
 - Edit regedit of virtual machine with the following command in elevated command prompt:  
-```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000" /v DriverDesk /t REG_SZ /d "ATI/NDIDIA SVGA II" /f```
+```
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000" /v DriverDesk /t REG_SZ /d "ATI/NDIDIA SVGA II" /f
+```
